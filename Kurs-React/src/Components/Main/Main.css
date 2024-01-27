@@ -1,0 +1,78 @@
+section h3,
+section h2 {
+   text-transform: uppercase;
+}
+
+.blockExpertiesAndAwards,
+.category {
+   display: flex;
+}
+
+.category {
+   height: 40px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.experties,
+.awards {
+   width: 50%;
+}
+
+.awards {
+   border-left: 1.5px solid silver;
+}
+
+.experties {
+   padding-right: 70px;
+   border-right: 1.5px solid silver;
+
+}
+
+.awards hr,
+.experties hr {
+   width: 250px !important;
+}
+
+.grafik {
+   width: 295px;
+   height: 5px;
+   background-color: #c7c7c7;
+}
+
+.category h5 {
+   width: 150px;
+   text-align: end;
+   font-weight: 500;
+   font-size: 17px;
+   color: #4e4e4e;
+}
+
+.inFrafik {
+   height: 5px;
+   background-color: #4e4e4e;
+}
+
+.awardsBox {
+   font-family: Raleway;
+    color: #414141;
+   padding-left: 60px;
+   text-align: start;
+   margin-bottom: 50px ;
+
+}
+
+.awardsBox h2 {
+   line-height: 5px;
+
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.awardsBox h4 {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-transform: capitalize;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 0px;
+}

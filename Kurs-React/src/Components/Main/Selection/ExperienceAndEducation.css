@@ -1,0 +1,69 @@
+section >div{
+   margin-top: 30px;
+}
+
+.headerSelection {
+   display: flex;
+   align-items: center;
+}
+
+.headerSelection hr {
+   width: 72%;
+   height: 2.5px;
+   background-color: silver;
+   border: 0px;
+   margin-right: 20px;
+}
+
+.headerSelection i {
+   font-size: 30px;
+}
+
+.headerSelection h2 {
+   width: 170px;
+   text-align: end;
+   letter-spacing: 1px;
+   font-weight: 500;
+
+}
+.bogyInfo {
+   width: 98%;
+   height: 100%;
+   display: flex;
+   margin-top: 30px;
+   gap: 100px;
+   /* border: 1px solid black; */
+}
+
+.bogyInfo h3,
+.bogyInfo h4 {
+   font-weight: 400;
+   text-align: end;
+   line-height: 5px;
+}
+
+.bogyInfo h3 {
+   width: 155px;
+}
+
+.bogyInfo h4 {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-transform: capitalize;
+   font-size: 14px;
+   font-weight: 500;
+}
+
+.bogyInfo h5,
+.bogyInfo p {
+
+   margin: 5px 0;
+   text-align: start;
+}
+
+.bogyInfo h5 {
+   margin-top: 10px;
+   font-weight: 600;
+   text-transform: uppercase;
+color: #4e4e4e; 
+
+}

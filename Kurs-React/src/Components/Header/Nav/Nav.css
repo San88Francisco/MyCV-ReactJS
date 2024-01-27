@@ -1,0 +1,68 @@
+nav {
+   height: 200px;
+   display: flex;
+   justify-content: center;
+}
+
+nav .containerContact:nth-child(1) h3,
+.infoDetailsContainerLeft {
+   padding-right: 20px;
+   border-right: 1.2px solid silver;
+}
+
+nav .containerContact:nth-child(2   ) h3,
+.infoDetailsContainerRight {
+   padding-left: 20px;
+   border-left: 1.2px solid silver;
+}
+
+
+nav .containerContact:nth-child(1) {
+   text-align: end;
+}
+
+nav .containerContact:nth-child(1) .infoDetailsContainerRight {
+   display: none;
+}
+
+nav .containerContact:nth-child(2) {
+   text-align: start;
+}
+
+nav .containerContact:nth-child(2) .infoDetailsContainerLeft {
+   display: none;
+}
+
+.infoDetailsContainerLeft,
+.infoDetailsContainerRight {
+   width: 520px;
+   margin-top: -20px;
+   padding: 20px;
+   line-height: 0px;
+   border-bottom: 2px solid silver;
+
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containerContact {
+   height: 20px;
+   color: #414141;
+   font-weight: 600;
+}
+
+.blockInfo p {
+   padding: 0 2px;
+}
+
+.blockInfo {
+   display: flex;
+}
+
+nav .containerContact:nth-child(1) .blockInfo {
+   flex-direction: row-reverse;
+
+}
+
+.blockInfo p:nth-of-type(1) {
+   text-transform: capitalize;
+}
